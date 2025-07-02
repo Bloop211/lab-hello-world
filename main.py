@@ -6,5 +6,5 @@ if whatOp == "/" and secondNum == "0":
     print("Cannot divide by zero!")
 else:
     answer = eval(firstNum + whatOp + secondNum)
-    print(f"Your answer is: {answer}!")
+    print(f"Your answer is: {answer:.2f}!")
     
